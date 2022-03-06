@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/casilla"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -19,10 +20,19 @@
 
         <TextView
             android:id="@+id/nombre"
-            android:layout_width="match_parent"
+            android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:text="TextView" />
+
+        <Button
+            android:id="@+id/botonFruta"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="Button" />
+
     </LinearLayout>
+
 </LinearLayout>
